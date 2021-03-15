@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/small_logo.jpg">
     <title>Episode Cafe</title>
 </head>
 <body>
@@ -24,49 +25,86 @@
         </ul>
     </div>
 </nav>
-<!-- Слайдер с популярными продуктами, который ссылается на заказ еды -->
+<!--Лого с кратким описанием и ссылками на доставку -->
 <main class="content">
-    <section>
+    <section class="presentation">
         <div class="section-content">
-            <h2 class="content-header">Наша продукция</h2>
             <div>
-                <a><img class="article-img" src="images/pie_berries.jpg" alt="-"></a>
+                <a><img class="article-img" src="images/bread_logo.png" alt="-"></a>
             </div>
-            <div class="article">Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ornare arcu odio ut sem nulla pharetra diam sit amet. Sagittis
-                orci a scelerisque purus semper eget duis. Tortor pretium viverra
-                suspendisse potenti nullam ac tortor vitae purus. Nunc congue nisi
-                vitae suscipit tellus mauris a diam. Faucibus et molestie ac feugiat
-                sed lectus. Tincidunt lobortis feugiat vivamus at augue. Nibh sed
-                pulvinar proin gravida hendrerit. Amet tellus cras adipiscing enim
-                eu turpis. Eget sit amet tellus cras adipiscing. Neque vitae tempus
-                quam pellentesque nec. Aenean et tortor at risus viverra adipiscing
-                at in tellus.
-
-                Aliquet bibendum enim facilisis gravida neque. Pellentesque
-                adipiscing commodo elit at imperdiet dui accumsan. Ac tincidunt
-                vitae semper quis lectus. Morbi tristique senectus et netus et
-                malesuada fames ac turpis. Orci dapibus ultrices in iaculis nunc.
-                Fames ac turpis egestas maecenas pharetra. In fermentum et sollicitudin
-                ac orci phasellus egestas tellus rutrum. Sed augue lacus viverra vitae
-                congue eu. Est pellentesque elit ullamcorper dignissim cras tincidunt
-                lobortis feugiat vivamus. Viverra tellus in hac habitasse platea dictumst
-                vestibulum rhoncus. Nisl nisi scelerisque eu ultrices. Dignissim diam
-                quis enim lobortis. Orci dapibus ultrices in iaculis nunc sed augue
-                lacus viverra. Mauris cursus mattis molestie a iaculis at erat. Aliquet
-                enim tortor at auctor urna nunc id cursus. Ac turpis egestas integer
-                eget aliquet nibh praesent tristique. Id interdum velit laoreet id. Et
-                molestie ac feugiat sed lectus vestibulum mattis. Sit amet porttitor
-                eget dolor morbi non arcu risus. Erat pellentesque adipiscing commodo
-                elit at imperdiet dui accumsan sit.
-
+            <h2 class="content-header">Самая дружелюбная пекарня</h2>
+            <div class="extra-info">
+                <img class="present-link" src="images/yandex_food_bw.png" alt="yf_logo">
+                <img class="present-link" src="images/dc_logo.svg" alt="dc_logo">
             </div>
         </div>
     </section>
     <!-- Коротко о пекарне -->
-    <section>
+    <section class="about-article">
+        <div class="section-content article">
+            <p>
+                Добро пожаловать в эпизод - самую дружелюбную московскую пекарню.
+            </p>
+            <br>
+            <p>
+                Эпизод - это всегда вкус, качество и хорошее настроение.
+                Мы используем только специально отобранные ингредиенты для нашей
+                продукции. Мы хотим, чтобы вы ощутили вкус детства, вспомнили
+                те самые пирожки, которые готовила вам ваша мама.
+            </p>
+            <br>
+            <p>
+                У нас Вы всегда купите свежую и вкусную выпечку, хлеб и кондитерские
+                изделия. Сможете заказать любое изделие к Вашему празднику в любом объеме с доставкой, провести время
+                в уютной обстановке за чашкой горячего кофе или чая. Вся наша выпечка
+                готовится у Вас на глазах. Качество, традиции и разнообразие вкусов –
+                пекарня <span class="inline-logo">«Эпизод»</span> найдет путь к сердцу самого требовательного покупателя!
+            </p>
+        </div>
+    </section>
+    <section class="offers">
 
+        <h2 class="content-header">Наши предложения</h2>
+        <div class="section-content offers-content">
+            <a href="menu.html">
+            <div class="offer-card">
+                <img class="offer-img" src="images/pies.jpg" alt="">
+                <div class="offer-title">
+                    Пирожки с картофелем
+                </div>
+
+                <div class="offer-desc">
+                    Some words describing how good this offer is.
+                </div>
+            </div>
+            </a>
+
+            <a href="menu.html">
+            <div class="offer-card">
+                <img class="offer-img" src="images/pie_berries.jpg" alt="">
+                <div class="offer-title">
+                    Пирог с малиновой начинкой
+                </div>
+
+                <div class="offer-desc">
+                    Some words describing how good this offer is.
+                </div>
+            </div>
+            </a>
+
+            <a href="menu.html">
+            <div class="offer-card">
+                <img class="offer-img" src="images/donuts.jpg" alt="">
+                <div class="offer-title">
+                    Глазированный пончик
+                </div>
+
+                <div class="offer-desc">
+                    Some words describing how good this offer is.
+                </div>
+            </div>
+            </a>
+        </div>
     </section>
 </main>
 <!-- "Мы в социальных сетях" -->
@@ -75,8 +113,8 @@
         <span class="logo-small">Episode Cafe</span>
         <span class="logo-small">+7 (982) 289-38-42</span>
         <ul class="social-links">
-            <li><a href="https://www.instagram.com/" target="_blank"><img class="social-icon" src="images/instagram_icon.png" alt="Instagram"></a></li>
-            <li><a href="https://web.telegram.org/" target="_blank"><img class="social-icon" src="images/telegram_icon.png" alt="Telegram"></a></li>
+            <li><a href="https://www.instagram.com/episode_bakery/?hl=ru" target="_blank"><img class="social-icon" src="images/instagram_icon.png" alt="Instagram"></a></li>
+            <li><a href="https://t.me/joinchat/38lK4Dm9uAxkYzJi" target="_blank"><img class="social-icon" src="images/telegram_icon.png" alt="Telegram"></a></li>
         </ul>
     </div>
 </footer>
