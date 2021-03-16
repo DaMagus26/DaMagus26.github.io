@@ -237,14 +237,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     background-color: #fff;
     padding: 20px;
     margin: 10px;
     box-shadow: #333 4px 4px 3px
 }
 
-.line-img {
+.line-img-box {
     width: 20%;
+}
+
+.line-img {
+    width: 100%;
     border-radius: 3%;
 }
 
